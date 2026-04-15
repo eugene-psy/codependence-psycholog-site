@@ -104,33 +104,35 @@
 
 <body class="bg-surface font-body text-on-surface selection:bg-primary-container">
 
-    <!-- TopNavBar -->
+    <!-- Top Navigation -->
     <header
-        class="fixed top-0 w-full z-50 bg-[#fbf9f5]/80 dark:bg-[#30332e]/80 backdrop-blur-md shadow-[0_12px_32px_rgba(48,51,46,0.05)] transition-all duration-400">
-        <nav class="flex justify-between items-center px-6 md:px-12 py-6 max-w-screen-2xl mx-auto">
-            <div class="hidden md:flex items-center space-x-6 xl:space-x-8">
-                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+        class="fixed top-0 w-full z-50 bg-[#fbf9f5]/80 dark:bg-[#30332e]/80 backdrop-blur-md shadow-[0_12px_32px_rgba(48,51,46,0.05)] transition-all duration-400 no-line-rule">
+        <nav class="relative flex justify-between items-center px-6 md:px-12 py-6 max-w-screen-2xl mx-auto gap-4">
+            <div class="hidden lg:block lg:w-48 flex-shrink-0"></div>
+            <div class="flex items-center gap-8 whitespace-nowrap lg:absolute lg:left-1/2 lg:-translate-x-1/2 overflow-x-auto max-lg:px-4">
+                <a class="font-['Noto_Serif'] text-lg text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-transparent hover:border-[#516259] pb-1 transition-all duration-400"
                     href="index.html">Главная</a>
-                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                <a class="font-['Noto_Serif'] text-lg text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-transparent hover:border-[#516259] pb-1 transition-all duration-400"
                     href="about.html">Обо мне</a>
-                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                <a class="font-['Noto_Serif'] text-lg text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-transparent hover:border-[#516259] pb-1 transition-all duration-400"
                     href="codependency.html">Созависимость</a>
-                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                <a class="font-['Noto_Serif'] text-lg text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-transparent hover:border-[#516259] pb-1 transition-all duration-400"
                     href="services.html">Услуги</a>
-                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                <a class="font-['Noto_Serif'] text-lg text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-transparent hover:border-[#516259] pb-1 transition-all duration-400"
                     href="pricing.html">Стоимость</a>
-                <a class="text-[#516259] dark:text-[#8DA399] border-b-2 border-[#516259]/30 pb-1 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed whitespace-nowrap"
+                <a class="font-['Noto_Serif'] text-lg text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-[#516259] pb-1 transition-all duration-400"
                     href="faq.html">FAQ</a>
-                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                <a class="font-['Noto_Serif'] text-lg text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-transparent hover:border-[#516259] pb-1 transition-all duration-400"
                     href="blog.html">Статьи</a>
-                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                <a class="font-['Noto_Serif'] text-lg text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-transparent hover:border-[#516259] pb-1 transition-all duration-400"
                     href="contacts.html">Контакты</a>
             </div>
-            <div class="md:hidden"></div>
-            <button
-                class="bg-primary text-on-primary rounded-full px-6 xl:px-8 py-3 font-semibold text-sm hover:bg-primary-dim transition-all duration-400 scale-95 md:scale-100 ease-[cubic-bezier(0.4,0,0.2,1)] whitespace-nowrap">
-                Записаться
-            </button>
+            <div class="lg:w-48 flex justify-end flex-shrink-0">
+                <a href="contacts.html"
+                    class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-medium hover:bg-primary-dim transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)] active:scale-95 text-sm md:text-base">
+                    Записаться
+                </a>
+            </div>
         </nav>
     </header>
 
