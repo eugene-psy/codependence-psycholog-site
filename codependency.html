@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html class="light" lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error-container": "#752121",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-fixed-variant": "#515e5a",
+                        "on-primary-fixed-variant": "#4e5f56",
+                        "secondary-fixed": "#d7e6e0",
+                        "surface-bright": "#fbf9f5",
+                        "surface-tint": "#516259",
+                        "on-tertiary-fixed-variant": "#626765",
+                        "on-background": "#30332e",
+                        "surface": "#fbf9f5",
+                        "on-error": "#fff7f6",
+                        "secondary-fixed-dim": "#c9d8d2",
+                        "surface-container-highest": "#e2e3db",
+                        "inverse-on-surface": "#9e9d99",
+                        "on-surface-variant": "#5d605a",
+                        "primary-dim": "#45564d",
+                        "surface-variant": "#e2e3db",
+                        "outline": "#797c75",
+                        "surface-container-high": "#e8e9e2",
+                        "primary": "#516259",
+                        "on-tertiary-container": "#575d5b",
+                        "inverse-surface": "#0e0e0d",
+                        "surface-container-low": "#f5f4ef",
+                        "tertiary-container": "#f0f5f2",
+                        "outline-variant": "#b1b3ab",
+                        "tertiary": "#5b605e",
+                        "secondary-container": "#d7e6e0",
+                        "on-primary-container": "#44554d",
+                        "tertiary-fixed-dim": "#e1e6e3",
+                        "surface-container": "#eeeee8",
+                        "on-secondary-container": "#475451",
+                        "on-secondary-fixed": "#35423e",
+                        "primary-fixed": "#d4e7db",
+                        "error-container": "#fe8983",
+                        "on-secondary": "#eefcf6",
+                        "background": "#fbf9f5",
+                        "tertiary-dim": "#4f5452",
+                        "on-primary": "#e9fcf0",
+                        "inverse-primary": "#dcf0e4",
+                        "error": "#9f403d",
+                        "tertiary-fixed": "#f0f5f2",
+                        "secondary-dim": "#495652",
+                        "error-dim": "#4e0309",
+                        "on-primary-fixed": "#32433b",
+                        "surface-dim": "#d9dbd2",
+                        "on-tertiary": "#f5faf7",
+                        "primary-container": "#d4e7db",
+                        "on-surface": "#30332e",
+                        "on-tertiary-fixed": "#454b49",
+                        "primary-fixed-dim": "#c6d9cd",
+                        "secondary": "#55625e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .no-line-rule {
+            border: none !important;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        body {
+            background-color: #fbf9f5;
+            color: #30332e;
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .editorial-shadow {
+            box-shadow: 0 12px 32px rgba(48, 51, 46, 0.05);
+        }
+    </style>
+    <title>Созависимость | Психолог Евгений Корепин</title>
+</head>
+
+<body class="bg-surface text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+
+    <!-- Top Navigation Bar -->
+    <header
+        class="fixed top-0 w-full z-50 bg-[#fbf9f5]/80 dark:bg-[#30332e]/80 backdrop-blur-md shadow-[0_12px_32px_rgba(48,51,46,0.05)] transition-all duration-400 no-line-rule">
+        <nav class="relative flex justify-between items-center px-6 md:px-12 py-6 max-w-screen-2xl mx-auto gap-4">
+            <div class="lg:w-48 flex-shrink-0"></div>
+            <div class="hidden lg:flex absolute left-1/2 -translate-x-1/2 items-center gap-8 whitespace-nowrap">
+                <a class="font-['Noto_Serif'] tracking-tight text-lg leading-relaxed text-[#30332e] dark:text-[#fbf9f5] hover:text-[#516259] transition-all duration-400 ease-in-out border-b-2 border-transparent pb-1"
+                    href="index.html">Главная</a>
+                <a class="font-['Noto_Serif'] tracking-tight text-lg leading-relaxed text-[#30332e] dark:text-[#fbf9f5] hover:text-[#516259] transition-all duration-400 ease-in-out border-b-2 border-transparent pb-1"
+                    href="about.html">Обо мне</a>
+                <a class="font-['Noto_Serif'] tracking-tight text-lg leading-relaxed text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-[#516259]/60 pb-1"
+                    href="codependency.html">Созависимость</a>
+                <a class="font-['Noto_Serif'] tracking-tight text-lg leading-relaxed text-[#30332e] dark:text-[#fbf9f5] hover:text-[#516259] transition-all duration-400 ease-in-out border-b-2 border-transparent pb-1"
+                    href="services.html">Услуги</a>
+                <a class="font-['Noto_Serif'] tracking-tight text-lg leading-relaxed text-[#30332e] dark:text-[#fbf9f5] hover:text-[#516259] transition-all duration-400 ease-in-out border-b-2 border-transparent pb-1"
+                    href="pricing.html">Стоимость</a>
+                <a class="font-['Noto_Serif'] tracking-tight text-lg leading-relaxed text-[#30332e] dark:text-[#fbf9f5] hover:text-[#516259] transition-all duration-400 ease-in-out border-b-2 border-transparent pb-1"
+                    href="faq.html">FAQ</a>
+                <a class="font-['Noto_Serif'] tracking-tight text-lg leading-relaxed text-[#30332e] dark:text-[#fbf9f5] hover:text-[#516259] transition-all duration-400 ease-in-out border-b-2 border-transparent pb-1"
+                    href="blog.html">Статьи</a>
+                <a class="font-['Noto_Serif'] tracking-tight text-lg leading-relaxed text-[#30332e] dark:text-[#fbf9f5] hover:text-[#516259] transition-all duration-400 ease-in-out border-b-2 border-transparent pb-1"
+                    href="contacts.html">Контакты</a>
+            </div>
+            <div class="lg:w-48 flex justify-end flex-shrink-0">
+                <a href="contacts.html"
+                    class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-medium hover:bg-primary-dim transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)] active:scale-95 text-sm md:text-base">
+                    Записаться
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-32 pb-24">
+        <!-- Hero Section -->
+        <section class="max-w-7xl mx-auto px-12 mb-32">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                <div class="lg:col-span-8">
+                    <h1
+                        class="font-headline text-3xl md:text-4xl lg:text-5xl text-primary leading-[1.15] mb-5 tracking-tight max-w-4xl">
+                        Что такое созависимость и как её распознать
+                    </h1>
+                </div>
+                <div class="lg:col-span-4">
+                    <div class="aspect-[4/5] bg-surface-container-low rounded-xl overflow-hidden shadow-sm">
+                        <img alt="Abstract minimalist scene"
+                            class="w-full h-full object-cover grayscale opacity-80 mix-blend-multiply"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCe4xX5AN_wx6f2QZFLTiLkfJ1d3K_wbtpWlqwHyNvDevQUksqCSDC8YJF2_Uq2dwiKLGo2nDsIyYCQlueQJuN_jctS4v8JDcyEoRPsxIHAMxD2g-3oyivLWJmZQyR5NsCyS88L0xL16om90167hBGoZemyNRq5uwMPyynfplJQR0MxCmrtucApEndsomyFCSogrdaZkwblY6bg0xzLwfUV6bedodOZKGdiwvzhKFzHauFaK2ipA5jgZEnsVP-hGHOGmtmG2szXro9h" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Definition Section -->
+        <section class="mb-32">
+            <div class="max-w-7xl mx-auto px-12">
+                <div
+                    class="bg-surface-container-low p-12 md:p-20 lg:p-24 rounded-xl flex flex-col lg:flex-row gap-16 lg:gap-24 items-start">
+                    <div class="flex-1">
+                        <span
+                            class="font-body text-primary font-bold uppercase tracking-widest text-sm mb-6 block">Определение</span>
+                        <h2 class="font-headline text-3xl md:text-4xl text-on-surface mb-8 leading-snug">
+                            Потеря себя в другом человеке
+                        </h2>
+                        <p class="font-body text-lg md:text-xl text-on-surface-variant leading-relaxed">
+                            Созависимость — это психологическое состояние, при котором человек становится эмоционально,
+                            социально или даже физически зависимым от другого. Это путь, где ваши собственные
+                            потребности, чувства и мечты постепенно стираются, уступая место жизни ради спасения или
+                            контроля над кем-то другим.
+                        </p>
+                    </div>
+                    <div class="lg:w-1/3 pt-8 lg:pt-16">
+                        <div class="h-1 w-16 bg-primary/20 mb-8"></div>
+                        <p class="font-headline italic text-2xl text-primary-dim leading-relaxed">
+                            «Там, где начинается созависимость, заканчивается личная свобода».
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Symptoms Section -->
+        <section class="max-w-7xl mx-auto px-12 mb-32">
+            <div class="text-center mb-16">
+                <h2 class="font-headline text-4xl md:text-5xl mb-4">Основные признаки</h2>
+                <p class="font-body text-on-surface-variant">Распознавание — это первый шаг к исцелению</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div
+                    class="bg-surface-container-lowest p-10 lg:p-12 rounded-xl shadow-[0_12px_32px_rgba(48,51,46,0.03)] flex flex-col items-start transition-all duration-400 hover:shadow-[0_24px_48px_rgba(48,51,46,0.08)]">
+                    <div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center mb-8">
+                        <span class="material-symbols-outlined text-primary">psychology</span>
+                    </div>
+                    <h3 class="font-headline text-2xl mb-6">Слияние границ</h3>
+                    <p class="font-body text-on-surface-variant leading-relaxed">
+                        Трудно отделить свои эмоции от эмоций партнера. Вы чувствуете вину за его неудачи и
+                        ответственность за его счастье.
+                    </p>
+                </div>
+                <div
+                    class="bg-surface-container-lowest p-10 lg:p-12 rounded-xl shadow-[0_12px_32px_rgba(48,51,46,0.03)] flex flex-col items-start transition-all duration-400 hover:shadow-[0_24px_48px_rgba(48,51,46,0.08)]">
+                    <div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center mb-8">
+                        <span class="material-symbols-outlined text-primary">shield_person</span>
+                    </div>
+                    <h3 class="font-headline text-2xl mb-6">Забытые потребности</h3>
+                    <p class="font-body text-on-surface-variant leading-relaxed">
+                        Собственные хобби, друзья и планы отодвигаются на второй план. Вы живете ожиданиями и проблемами
+                        другого человека.
+                    </p>
+                </div>
+                <div
+                    class="bg-surface-container-lowest p-10 lg:p-12 rounded-xl shadow-[0_12px_32px_rgba(48,51,46,0.03)] flex flex-col items-start transition-all duration-400 hover:shadow-[0_24px_48px_rgba(48,51,46,0.08)]">
+                    <div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center mb-8">
+                        <span class="material-symbols-outlined text-primary">sync_problem</span>
+                    </div>
+                    <h3 class="font-headline text-2xl mb-6">Контроль как забота</h3>
+                    <p class="font-body text-on-surface-variant leading-relaxed">
+                        Постоянное желание «улучшить» или «спасти» партнера, которое маскируется под глубокую
+                        преданность, но лишает обоих роста.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Help Section -->
+        <section class="max-w-7xl mx-auto px-12 mb-32">
+            <div
+                class="bg-surface-container-highest rounded-xl overflow-hidden flex flex-col md:flex-row items-stretch min-h-[500px]">
+                <div class="md:w-1/2 p-12 lg:p-20 flex flex-col justify-center">
+                    <h2 class="font-headline text-3xl md:text-4xl mb-10 leading-snug">Когда пора обратиться за помощью?
+                    </h2>
+                    <ul class="space-y-8">
+                        <li class="flex gap-4 items-start">
+                            <span class="material-symbols-outlined text-primary mt-1 flex-shrink-0">warning</span>
+                            <p class="font-body text-lg">Вы замечаете <strong>повторяющиеся сценарии</strong> в разных
+                                отношениях, где вы всегда оказываетесь в роли «спасателя».</p>
+                        </li>
+                        <li class="flex gap-4 items-start">
+                            <span class="material-symbols-outlined text-primary mt-1 flex-shrink-0">error_outline</span>
+                            <p class="font-body text-lg"><strong>Страх одиночества</strong> или отвержения настолько
+                                силен, что вы готовы терпеть неуважение или даже насилие.</p>
+                        </li>
+                        <li class="flex gap-4 items-start">
+                            <span class="material-symbols-outlined text-primary mt-1 flex-shrink-0">cloud_off</span>
+                            <p class="font-body text-lg">Вы чувствуете полное <strong>эмоциональное истощение</strong> и
+                                потерю смысла жизни без привязки к другому человеку.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 min-h-[350px]">
+                    <img alt="Serene water scene" class="w-full h-full object-cover"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDl25Ovj5Wr_2I25AK7TaWw7LJ-empeu_A_g6aQu5nUWt5kwy3Ue9iEjWu_1wVH1MEiZ87hfTm_HhbIsOQk9dFtACv9bbigt3ASDDpv2GtCEwA4wVSdrS9d4Dis1cabYk1VmtHzhrUuVjn_kyn1oRkgj0c6rCWfemwoBm0RsCsYesf0F6XzL8YkYfuxiOaWHm7i5iQbjmCM0ziNN6n7HvNAA0R-Cakk6OLFuzVnYqU3wjqmpHfnFoFRSDNJdjpaU7mFu_FXsLseXr6L" />
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="max-w-5xl mx-auto px-12 text-center">
+            <div
+                class="inline-block px-4 py-1.5 rounded-full bg-primary-container text-primary font-body text-sm font-bold mb-8">
+                Путь к себе</div>
+            <h2 class="font-headline text-4xl md:text-5xl mb-10 leading-tight">
+                В терапии мы исследуем корни ваших привязанностей, чтобы вы могли строить здоровые отношения, не теряя
+                себя.
+            </h2>
+            <div class="flex flex-col md:flex-row gap-6 justify-center mt-12 items-center">
+                <a href="contacts.html"
+                    class="bg-primary text-on-primary px-10 py-4.5 rounded-full font-body font-bold text-lg hover:bg-primary-dim transition-all duration-400 text-center">
+                    Записаться на сессию
+                </a>
+                <a class="font-body font-bold text-lg text-primary flex items-center justify-center gap-2 group p-4"
+                    href="services.html">
+                    Наши услуги
+                    <span
+                        class="material-symbols-outlined transition-transform duration-400 group-hover:translate-x-2">arrow_forward</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+        class="bg-[#f5f4ef] dark:bg-[#1a1c1a] w-full py-20 px-12 border-t-0 bg-gradient-to-t from-[#f5f4ef] to-[#fbf9f5]">
+        <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 max-w-7xl mx-auto font-['Manrope'] text-sm tracking-wide leading-7">
+            <div class="col-span-1">
+                <p class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 max-w-xs">
+                
+                </p>
+            </div>
+            <div>
+                <h4 class="text-sm font-bold text-[#516259] mb-8 uppercase tracking-widest">Контакты</h4>
+                <ul class="space-y-4">
+                    <li><a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:text-[#516259] transition-all duration-400 ease-out inline-block"
+                            href="tel:89819911981">8 981 991 19 81</a></li>
+                    <li><a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:text-[#516259] transition-all duration-400 ease-out inline-block"
+                            href="mailto:ekorepin@yandex.ru">ekorepin@yandex.ru</a></li>
+                    <li><a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:text-[#516259] transition-all duration-400 ease-out inline-block"
+                            href="https://t.me/EvgeniiKorepin">@EvgeniiKorepin</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-sm font-bold text-[#516259] mb-8 uppercase tracking-widest">Меню</h4>
+                <ul class="space-y-4">
+                    <li><a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:text-[#516259] transition-all duration-400 ease-out inline-block"
+                            href="index.html">Главная</a></li>
+                    <li><a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:text-[#516259] transition-all duration-400 ease-out inline-block"
+                            href="about.html">Обо мне</a></li>
+                    <li><a class="font-bold text-[#516259] hover:text-[#516259] transition-all duration-400 ease-out inline-block"
+                            href="codependency.html">Созависимость</a></li>
+                    <li><a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:text-[#516259] transition-all duration-400 ease-out inline-block"
+                            href="services.html">Услуги</a></li>
+                    <li><a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:text-[#516259] transition-all duration-400 ease-out inline-block"
+                            href="pricing.html">Стоимость</a></li>
+                    <li><a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:text-[#516259] transition-all duration-400 ease-out inline-block"
+                            href="faq.html">FAQ</a></li>
+                    <li><a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:text-[#516259] transition-all duration-400 ease-out inline-block"
+                            href="blog.html">Статьи</a></li>
+                    <li><a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:text-[#516259] transition-all duration-400 ease-out inline-block"
+                            href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-sm font-bold text-[#516259] mb-8 uppercase tracking-widest">Адрес</h4>
+                <p class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 mb-6">
+                    Санкт-Петербург
+                </p>
+                <p class="text-xs text-[#30332e]/40 dark:text-[#fbf9f5]/40 leading-relaxed">
+                    Садовая улица, 7–9–11
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

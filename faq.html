@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html class="light" lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>FAQ | Корепин Евгений Викторович</title>
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error-container": "#752121",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-fixed-variant": "#515e5a",
+                        "on-primary-fixed-variant": "#4e5f56",
+                        "secondary-fixed": "#d7e6e0",
+                        "surface-bright": "#fbf9f5",
+                        "surface-tint": "#516259",
+                        "on-tertiary-fixed-variant": "#626765",
+                        "on-background": "#30332e",
+                        "surface": "#fbf9f5",
+                        "on-error": "#fff7f6",
+                        "secondary-fixed-dim": "#c9d8d2",
+                        "surface-container-highest": "#e2e3db",
+                        "inverse-on-surface": "#9e9d99",
+                        "on-surface-variant": "#5d605a",
+                        "primary-dim": "#45564d",
+                        "surface-variant": "#e2e3db",
+                        "outline": "#797c75",
+                        "surface-container-high": "#e8e9e2",
+                        "primary": "#516259",
+                        "on-tertiary-container": "#575d5b",
+                        "inverse-surface": "#0e0e0d",
+                        "surface-container-low": "#f5f4ef",
+                        "tertiary-container": "#f0f5f2",
+                        "outline-variant": "#b1b3ab",
+                        "tertiary": "#5b605e",
+                        "secondary-container": "#d7e6e0",
+                        "on-primary-container": "#44554d",
+                        "tertiary-fixed-dim": "#e1e6e3",
+                        "surface-container": "#eeeee8",
+                        "on-secondary-container": "#475451",
+                        "on-secondary-fixed": "#35423e",
+                        "primary-fixed": "#d4e7db",
+                        "error-container": "#fe8983",
+                        "on-secondary": "#eefcf6",
+                        "background": "#fbf9f5",
+                        "tertiary-dim": "#4f5452",
+                        "on-primary": "#e9fcf0",
+                        "inverse-primary": "#dcf0e4",
+                        "error": "#9f403d",
+                        "tertiary-fixed": "#f0f5f2",
+                        "secondary-dim": "#495652",
+                        "error-dim": "#4e0309",
+                        "on-primary-fixed": "#32433b",
+                        "surface-dim": "#d9dbd2",
+                        "on-tertiary": "#f5faf7",
+                        "primary-container": "#d4e7db",
+                        "on-surface": "#30332e",
+                        "on-tertiary-fixed": "#454b49",
+                        "primary-fixed-dim": "#c6d9cd",
+                        "secondary": "#55625e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+
+        details>summary::-webkit-details-marker {
+            display: none;
+        }
+
+        details[open] .expand-icon {
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+
+<body class="bg-surface font-body text-on-surface selection:bg-primary-container">
+
+    <!-- TopNavBar -->
+    <header
+        class="fixed top-0 w-full z-50 bg-[#fbf9f5]/80 dark:bg-[#30332e]/80 backdrop-blur-md shadow-[0_12px_32px_rgba(48,51,46,0.05)] transition-all duration-400">
+        <nav class="flex justify-between items-center px-6 md:px-12 py-6 max-w-screen-2xl mx-auto">
+            <div class="hidden md:flex items-center space-x-6 xl:space-x-8">
+                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                    href="index.html">Главная</a>
+                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                    href="about.html">Обо мне</a>
+                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                    href="codependency.html">Созависимость</a>
+                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                    href="services.html">Услуги</a>
+                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                    href="pricing.html">Стоимость</a>
+                <a class="text-[#516259] dark:text-[#8DA399] border-b-2 border-[#516259]/30 pb-1 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed whitespace-nowrap"
+                    href="faq.html">FAQ</a>
+                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                    href="blog.html">Статьи</a>
+                <a class="text-[#30332e]/70 dark:text-[#fbf9f5]/70 font-['Noto_Serif'] tracking-tight text-base xl:text-lg leading-relaxed hover:text-[#516259] transition-all duration-400 ease-in-out whitespace-nowrap"
+                    href="contacts.html">Контакты</a>
+            </div>
+            <div class="md:hidden"></div>
+            <button
+                class="bg-primary text-on-primary rounded-full px-6 xl:px-8 py-3 font-semibold text-sm hover:bg-primary-dim transition-all duration-400 scale-95 md:scale-100 ease-[cubic-bezier(0.4,0,0.2,1)] whitespace-nowrap">
+                Записаться
+            </button>
+        </nav>
+    </header>
+
+    <main class="pt-32 pb-24 px-6 md:px-12 max-w-7xl mx-auto">
+        <!-- Hero Section -->
+        <header class="mb-24 flex flex-col md:flex-row gap-12 md:items-center">
+            <div class="flex-1 flex flex-col justify-center">
+                <h1
+                    class="font-headline text-3xl md:text-4xl lg:text-5xl text-primary leading-[1.15] mb-5 tracking-tight max-w-4xl">
+                    Часто задаваемые вопросы
+                </h1>
+                <p class="font-body text-lg md:text-xl text-on-surface-variant max-w-xl leading-relaxed">
+                    Обращение за терапией — это акт мужества. Мы собрали эти ответы, чтобы обеспечить прозрачность и
+                    спокойствие в начале вашего пути к внутреннему миру.
+                </p>
+            </div>
+            <div
+                class="hidden md:block w-1/3 aspect-[4/5] bg-surface-container-high rounded-xl overflow-hidden shadow-sm flex-shrink-0">
+                <img alt="Минималистичное пространство для терапии" class="w-full h-full object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAks_RUdDlQ5YhY22F92FoahLEGQY7D4RLN2385YpVP6h-bWGepebF_XyXHJYto2MmRqNd9WojMNR13HQ7Mk9H-q2KVMAbEwPujiTmHJHPdeHXG9dKDIkQRO8SNg0X7-ijWQ-Hg1TRox4LCEjCB5pVF5U12926aOl2Q4R_pujf5MRFC4KIPqCdxDLVbU9JMRHoeCwiU9DrlAQByVEeiJnJY6Nx6IytIjXhDfVuPp1ZZuN7zGxcAt4wD7DuQE2Y8GuiO9d8ov9kevm27" />
+            </div>
+        </header>
+
+        <!-- FAQ Section -->
+        <section class="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-32">
+            <div class="lg:col-span-4">
+                <div class="lg:sticky lg:top-40">
+                    <h2 class="font-headline text-3xl text-primary mb-4 italic">Основные вопросы</h2>
+                    <div class="h-px w-24 bg-primary/20 mb-6"></div>
+                    <p class="text-on-surface-variant leading-relaxed">
+                        Если вашего конкретного вопроса нет в списке, пожалуйста, свяжитесь со мной напрямую через
+                        страницу контактов.
+                    </p>
+                </div>
+            </div>
+
+            <div class="lg:col-span-8 space-y-4">
+                <!-- Accordion 1 -->
+                <details
+                    class="group bg-surface-container-low rounded-xl overflow-hidden transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)]"
+                    open>
+                    <summary class="flex items-center justify-between p-8 cursor-pointer list-none">
+                        <span
+                            class="font-headline text-xl md:text-2xl text-on-surface group-open:text-primary transition-colors pr-4">
+                            Что такое созависимость?
+                        </span>
+                        <span
+                            class="material-symbols-outlined expand-icon text-primary transition-transform duration-400 flex-shrink-0">add</span>
+                    </summary>
+                    <div class="px-8 pb-8">
+                        <p class="font-body text-base md:text-lg text-on-surface-variant leading-relaxed">
+                            Созависимость — это приобретенное поведение, которое может передаваться из поколения в
+                            поколение. Это эмоциональное и поведенческое состояние, влияющее на способность человека
+                            иметь здоровые, приносящие взаимное удовлетворение отношения. Оно часто характеризуется
+                            чрезмерной зависимостью от другого человека в вопросах самооценки и идентичности. В нашей
+                            практике мы рассматриваем это как стратегию выживания, от которой можно бережно отказаться,
+                            чтобы вернуть себе личную автономию.
+                        </p>
+                    </div>
+                </details>
+
+                <!-- Accordion 2 -->
+                <details
+                    class="group bg-surface-container-low rounded-xl overflow-hidden transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)]">
+                    <summary class="flex items-center justify-between p-8 cursor-pointer list-none">
+                        <span
+                            class="font-headline text-xl md:text-2xl text-on-surface group-open:text-primary transition-colors pr-4">
+                            Как проходит первая сессия?
+                        </span>
+                        <span
+                            class="material-symbols-outlined expand-icon text-primary transition-transform duration-400 flex-shrink-0">add</span>
+                    </summary>
+                    <div class="px-8 pb-8">
+                        <p class="font-body text-base md:text-lg text-on-surface-variant leading-relaxed">
+                            Первая сессия — это пространство для знакомства и исследования. Это не столько про
+                            «исправление», сколько про «замечание». Мы потратим 50 минут на обсуждение того, что привело
+                            вас сюда, вашей истории и ваших ожиданий от процесса. Нет никакой необходимости рассказывать
+                            всё сразу; мы движемся в темпе вашего комфорта и готовности.
+                        </p>
+                    </div>
+                </details>
+
+                <!-- Accordion 3 -->
+                <details
+                    class="group bg-surface-container-low rounded-xl overflow-hidden transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)]">
+                    <summary class="flex items-center justify-between p-8 cursor-pointer list-none">
+                        <span
+                            class="font-headline text-xl md:text-2xl text-on-surface group-open:text-primary transition-colors pr-4">
+                            Как долго длится терапия?
+                        </span>
+                        <span
+                            class="material-symbols-outlined expand-icon text-primary transition-transform duration-400 flex-shrink-0">add</span>
+                    </summary>
+                    <div class="px-8 pb-8">
+                        <p class="font-body text-base md:text-lg text-on-surface-variant leading-relaxed">
+                            Терапия — это органический процесс, а не линейный список дел. Некоторые находят ясность за
+                            12–16 сессий (краткосрочно), другие предпочитают долгосрочное психоаналитическое
+                            исследование, которое длится годами. Мы периодически обсуждаем наш прогресс, чтобы работа
+                            оставалась осмысленной и соответствовала вашему личностному росту.
+                        </p>
+                    </div>
+                </details>
+
+                <!-- Accordion 4 -->
+                <details
+                    class="group bg-surface-container-low rounded-xl overflow-hidden transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)]">
+                    <summary class="flex items-center justify-between p-8 cursor-pointer list-none">
+                        <span
+                            class="font-headline text-xl md:text-2xl text-on-surface group-open:text-primary transition-colors pr-4">
+                            Очно или онлайн?
+                        </span>
+                        <span
+                            class="material-symbols-outlined expand-icon text-primary transition-transform duration-400 flex-shrink-0">add</span>
+                    </summary>
+                    <div class="px-8 pb-8">
+                        <p class="font-body text-base md:text-lg text-on-surface-variant leading-relaxed">
+                            Оба формата имеют глубокую терапевтическую ценность. Очные сессии проходят в моем кабинете в
+                            Санкт-Петербурге, создавая физическую границу для работы. Онлайн-сессии предлагают комфорт
+                            вашей собственной обстановки и экономят время на дорогу. Я использую защищенные платформы,
+                            чтобы ваша цифровая сессия была такой же безопасной, как и личная встреча.
+                        </p>
+                    </div>
+                </details>
+
+                <!-- Accordion 5 -->
+                <details
+                    class="group bg-surface-container-low rounded-xl overflow-hidden transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)]">
+                    <summary class="flex items-center justify-between p-8 cursor-pointer list-none">
+                        <span
+                            class="font-headline text-xl md:text-2xl text-on-surface group-open:text-primary transition-colors pr-4">
+                            Конфиденциальность?
+                        </span>
+                        <span
+                            class="material-symbols-outlined expand-icon text-primary transition-transform duration-400 flex-shrink-0">add</span>
+                    </summary>
+                    <div class="px-8 pb-8">
+                        <p class="font-body text-base md:text-lg text-on-surface-variant leading-relaxed">
+                            Ваша конфиденциальность — мой главный приоритет. Всё, что обсуждается на сессиях, остается
+                            строго конфиденциальным, защищенным профессиональной этикой. Информация раскрывается только
+                            в крайне редких случаях возникновения риска для вашей безопасности или безопасности
+                            окружающих, что, по возможности, всегда обсуждается с вами заранее.
+                        </p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="bg-surface-container-lowest rounded-xl p-12 md:p-20 text-center shadow-sm">
+            <h3 class="font-headline text-3xl md:text-4xl text-on-surface mb-6">Остались вопросы?</h3>
+            <p class="font-body text-on-surface-variant max-w-2xl mx-auto mb-10 text-lg leading-relaxed">
+                Каждый путь уникален. Если вы предпочитаете более личное знакомство, я предлагаю краткий 15-минутный
+                ознакомительный звонок бесплатно.
+            </p>
+            <div class="flex flex-col md:flex-row gap-6 justify-center">
+                <a class="bg-primary text-on-primary rounded-full px-10 py-4 font-bold transition-all duration-400 hover:bg-primary-dim inline-block"
+                    href="https://t.me/EvgeniiKorepin">
+                    Написать в Telegram
+                </a>
+                <a class="text-primary font-bold border-2 border-primary/10 rounded-full px-10 py-4 hover:bg-primary-container transition-all duration-400 inline-block"
+                    href="mailto:ekorepin@yandex.ru">
+                    Отправить Email
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+        class="bg-gradient-to-t from-[#f5f4ef] to-[#fbf9f5] w-full py-16 px-6 md:px-12 border-t-0 font-['Manrope'] text-sm tracking-wide leading-7">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto">
+            <div class="space-y-6">
+                <div class="font-['Noto_Serif'] text-xl italic text-[#516259]"></div>
+                <p class="text-[#30332e]/60 dark:text-[#fbf9f5]/60">
+                    
+                </p>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="font-bold text-[#516259]">Ссылки</span>
+                <a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:translate-x-1 duration-400 ease-out transition-all"
+                    href="index.html">Главная</a>
+                <a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:translate-x-1 duration-400 ease-out transition-all"
+                    href="about.html">Обо мне</a>
+                <a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:translate-x-1 duration-400 ease-out transition-all"
+                    href="codependency.html">Созависимость</a>
+                <a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:translate-x-1 duration-400 ease-out transition-all"
+                    href="services.html">Услуги</a>
+                <a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:translate-x-1 duration-400 ease-out transition-all"
+                    href="pricing.html">Стоимость</a>
+                <a class="font-bold text-[#516259]" href="faq.html">FAQ</a>
+                <a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:translate-x-1 duration-400 ease-out transition-all"
+                    href="blog.html">Статьи</a>
+                <a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:translate-x-1 duration-400 ease-out transition-all"
+                    href="contacts.html">Контакты</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="font-bold text-[#516259]">Контакты</span>
+                <a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:translate-x-1 duration-400 ease-out transition-all"
+                    href="tel:89819911981">8 981 991 19 81</a>
+                <a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:translate-x-1 duration-400 ease-out transition-all"
+                    href="mailto:ekorepin@yandex.ru">ekorepin@yandex.ru</a>
+                <a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:translate-x-1 duration-400 ease-out transition-all"
+                    href="https://t.me/EvgeniiKorepin">@EvgeniiKorepin</a>
+                <a class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 hover:translate-x-1 duration-400 ease-out transition-all"
+                    href="https://t.me/Psychological_support_helper_bot">@Psychological_support_helper_bot</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="font-bold text-[#516259]">Адрес</span>
+                <p class="text-[#30332e]/60 dark:text-[#fbf9f5]/60">Санкт-Петербург</p>
+                <p class="text-[#30332e]/60 dark:text-[#fbf9f5]/60 mt-4 italic">
+                    Садовая улица, 7–9–11
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
