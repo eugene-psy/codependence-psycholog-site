@@ -2,18 +2,16 @@
 <html class="scroll-smooth" lang="ru">
 
 <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Обо мне | Психолог Евгений Корепин</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <!-- Tailwind + Fonts как на главной -->
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700,1,400&family=Manrope:wght@400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-        rel="stylesheet" />
 
-    <script id="tailwind-config">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+      <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
             theme: {
@@ -28,7 +26,7 @@
                         "surface-tint": "#516259",
                         "on-tertiary-fixed-variant": "#626765",
                         "on-background": "#30332e",
-                        "surface": "#fbf9f5",
+                        surface: "#fbf9f5",
                         "on-error": "#fff7f6",
                         "secondary-fixed-dim": "#c9d8d2",
                         "surface-container-highest": "#e2e3db",
@@ -36,15 +34,15 @@
                         "on-surface-variant": "#5d605a",
                         "primary-dim": "#45564d",
                         "surface-variant": "#e2e3db",
-                        "outline": "#797c75",
+                        outline: "#797c75",
                         "surface-container-high": "#e8e9e2",
-                        "primary": "#516259",
+                        primary: "#516259",
                         "on-tertiary-container": "#575d5b",
                         "inverse-surface": "#0e0e0d",
                         "surface-container-low": "#f5f4ef",
                         "tertiary-container": "#f0f5f2",
                         "outline-variant": "#b1b3ab",
-                        "tertiary": "#5b605e",
+                        tertiary: "#5b605e",
                         "secondary-container": "#d7e6e0",
                         "on-primary-container": "#44554d",
                         "tertiary-fixed-dim": "#e1e6e3",
@@ -54,77 +52,65 @@
                         "primary-fixed": "#d4e7db",
                         "error-container": "#fe8983",
                         "on-secondary": "#eefcf6",
-                        "background": "#fbf9f5",
+                        background: "#fbf9f5",
                         "tertiary-dim": "#4f5452",
                         "on-primary": "#e9fcf0",
                         "inverse-primary": "#dcf0e4",
-                        "error": "#9f403d",
+                        error: "#9f403d",
                         "tertiary-fixed": "#f0f5f2",
                         "secondary-dim": "#495652",
                         "error-dim": "#4e0309",
                         "on-primary-fixed": "#32433b",
                         "surface-dim": "#d9dbd2",
-                        "on-terтиary": "#f5faf7",
+                        "on-tertiary": "#f5faf7",
                         "primary-container": "#d4e7db",
                         "on-surface": "#30332e",
                         "on-tertiary-fixed": "#454b49",
                         "primary-fixed-dim": "#c6d9cd",
-                        "secondary": "#55625e"
+                        secondary: "#55625e",
                     },
                     borderRadius: {
                         DEFAULT: "0.25rem",
                         lg: "0.5rem",
                         xl: "0.75rem",
-                        full: "9999px"
+                        full: "9999px",
                     },
                     fontFamily: {
                         headline: ["Noto Serif"],
                         body: ["Manrope"],
-                        label: ["Manrope"]
-                    }
+                        label: ["Manrope"],
+                    },
                 },
             },
         }
     </script>
 
-    <style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
-            vertical-align: middle;
-        }
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      font-family: 'Material Symbols Outlined';
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-        .no-line-rule {
-            border: none !important;
-        }
+    .no-line-rule {
+      border: none !important;
+    }
+  </style>
 
-        .editorial-offset {
-            display: grid;
-            grid-template-columns: 1fr 1.2fr;
-            gap: 4rem;
-        }
-
-        @media (max-width: 768px) {
-            .editorial-offset {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-        }
-    </style>
-
-    <title>Обо мне | Психолог Евгений Корепин</title>
 </head>
 
 <body class="bg-surface text-on-surface font-body antialiased">
-
-    <!-- Top Navigation -->
-    <header
+<header
         class="fixed top-0 w-full z-50 bg-[#fbf9f5]/80 dark:bg-[#30332e]/80 backdrop-blur-md shadow-[0_12px_32px_rgba(48,51,46,0.05)] transition-all duration-400 no-line-rule">
         <nav class="relative flex justify-between items-center px-6 md:px-12 py-6 max-w-screen-2xl mx-auto gap-4">
             <div class="hidden lg:block lg:w-48 flex-shrink-0"></div>
             <div class="flex items-center gap-8 whitespace-nowrap lg:absolute lg:left-1/2 lg:-translate-x-1/2 overflow-x-auto max-lg:px-4">
                 <a class="font-['Noto_Serif'] text-lg text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-transparent hover:border-[#516259] pb-1 transition-all duration-400"
                     href="index.html">Главная</a>
-                <a class="font-['Noto_Serif'] text-lg text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-[#516259] pb-1 transition-all duration-400"
+                <a class="font-['Noto_Serif'] text-lg text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-[#516259] hover:border-[#516259] pb-1 transition-all duration-400"
                     href="about.html">Обо мне</a>
                 <a class="font-['Noto_Serif'] text-lg text-[#30332e] dark:text-[#fbf9f5] border-b-2 border-transparent hover:border-[#516259] pb-1 transition-all duration-400"
                     href="codependency.html">Созависимость</a>
@@ -148,46 +134,13 @@
         </nav>
     </header>
 
+
+
+
     <!-- Main Content: отступ как на старой about -->
     <main class="pt-56 pb-32">
         <!-- Hero Section / About -->
-        <header class="max-w-7xl mx-auto px-6 md:px-12 mb-32">
-            <div class="max-w-4xl">
-                <div class="editorial-offset items-start md:items-end">
-                    <div class="relative group">
-                        <div class="aspect-[3/4] overflow-hidden rounded-xl bg-surface-container-high shadow-lg">
-                            <img alt="Портрет Корепина Евгения Викторовича"
-                                class="w-full h-full object-cover transition-all duration-1000"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1wS6Xu7HB5y3iRDodlV0sfuI5gO24TRJxoRx5MNDyILVb6me89FQ514ry8pWehbvolVM30WnRAcrWX62mxJ_3CJtXxyGVEWdCAgZwHQs5xJNqUpn8Oa0lXsSCt6RJW5OAJRJB6SAFE73AGJh1XebLr3rZZdupw9cEXorV0OL9PNWTI8VggfpUB1pB2hMkm8D_2cnbdOSMgubYd2CA-LkMurQPvHteYwfEZjthD-0HIglHyQclzLa3Z6HbkySfpyA2rz-wiQvwMoBJ" />
-                        </div>
-                    </div>
-                    <div class="max-w-lg">
-                        <p class="font-headline text-2xl md:text-3xl text-primary leading-snug mb-4 tracking-tight">
-                            Корепин Евгений Викторович<br />
-                            <span class="text-base md:text-lg text-primary">
-                                Психолог
-                            </span>
-                        </p>
 
-                        <p class="text-lg md:text-xl text-on-surface-variant leading-relaxed mb-8">
-                            Я помогаю людям обрести внутреннюю опору и разобраться в лабиринтах собственного «Я». Мой
-                            путь в
-                            психоанализе начался с глубокого интереса к человеческой природе и стремления к пониманию
-                            того,
-                            как прошлое формирует наше настоящее.
-                        </p>
-                        <div
-                            class="bg-surface-container-lowest p-6 md:p-8 rounded-xl shadow-sm border-l-4 border-primary/20">
-                            <p class="font-headline italic text-lg text-primary leading-relaxed">
-                                «Тишина в кабинете — это не отсутствие звуков, а пространство для того, чтобы ваш голос
-                                был
-                                наконец услышан».
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
 
         <!-- Professional Path Section -->
         <section class="bg-surface-container-low py-32 mb-32">
